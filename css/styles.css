@@ -1,0 +1,42 @@
+/* https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=546e7a&secondary.color=BDBDBD */
+
+html {
+  font-family: 'MuseoModerno', cursive;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  zoom: 10%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(84, 110, 122, 0.5);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+  margin-left: 10%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  #myVideo {
+    zoom: 100%;
+  }
+
+  .content {
+    top: unset;
+    bottom: 0;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+  }
+}
