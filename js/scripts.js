@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function onEmailClick(){
-  document.location.href = "mailto:nestordelrio1989@gmail.com?subject=Idea3d";
+  document.location.href = "mailto:idea3d.ok@gmail.com?subject=Idea3d";
 }
 
 function onPhoneClick(){
