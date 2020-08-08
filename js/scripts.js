@@ -10,3 +10,7 @@ function onEmailClick(){
 function onPhoneClick(){
   document.location.href = "phone:+5491100000000";
 }
+
+function onContactClick(){
+  document.location.href = "form.html";
+}
