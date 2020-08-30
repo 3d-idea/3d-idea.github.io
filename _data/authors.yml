@@ -1,0 +1,25 @@
+Nestor Del Rio:
+  name        : "Néstor Del Río"
+  bio         : "Socio de Idea 3D, apasionado por la impresión 3D, emprendedor."
+  avatar      : "/assets/images/nestor-del-rio.jpeg"
+  location    : "Buenos Aires, Argentina"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nestordelrio1989@gmail.com"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin-square"
+      url: "https://ar.linkedin.com/in/n%C3%A9stor-del-r%C3%ADo-13a68416"
+
+Adrian Diaz:
+  name        : "Adrián Díaz"
+  bio         : "Nerd de profesión, curioso viajero y lector empedernido."
+  avatar      : "/assets/images/adrian-diaz.png"
+  location    : "Buenos Aires, Argentina"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:diaz.adrian.g@gmail.com"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin-square"
+      url: "https://ar.linkedin.com/in/adriangustavodiaz"

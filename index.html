@@ -1,52 +1,170 @@
-<!doctype html>
+---
+layout: home
+author_profile: false
+---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>IDEA-3D</title>
-    <link rel="icon" type="image/ico" href="images/favicon-32x32.png" sizes="32x32">
-    <meta name="description" content="Servicios corporativos para peque&ntilde;as, medianas y grandes empresas">
-    <meta name="author" content="Nestor del Rio">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174643208-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<!-- Header -->
+<header id="header" class="header">
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h1>Idea 3D</h1>
+                        <p class="p-large">Una innovadora manera de hacer posible tus ideas</p>
+                        <p>Hoy en día, no hace falta tener una impresora para imprimir 3D, pero las distancias entre la idea y el producto final sigue siendo muy amplia. Venimos a acercar la tecnología a tu negocio, para que la impresión 3D pueda ser una alternativa real, económica y confiable para tus desarrollos.</p>
+                        <a class="btn-solid-lg page-scroll" href="#contact-form">
+                            Tengo una idea
+                        </a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <div class="img-wrapper">
+                            <img class="img-fluid" src="/assets/images/undraw_3d_modeling_h60h.png" alt="alternative">
+                        </div> <!-- end of img-wrapper -->
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of header-content -->
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <div class="img-wrapper">
+                            <img class="img-fluid" src="/assets/images/undraw_work_in_progress_uhmv.png" alt="alternative">
+                        </div> <!-- end of img-wrapper -->
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <p class="p-large">La impresión en la nube es posible</p>
+                        <p>
+                            Olvidate de invertir en la compra de una impresora, su puesta en marcha y la capacitación necesaria para operarla. En Idea 3D queremos ser tus socios tecnológicos para que tu foco esté en lo importante: materializar tu idea o proyecto. De la impresión nos encargamos nosotros.
+                        </p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of header-content -->
+</header> <!-- end of header -->
+<!-- end of header -->
 
-      gtag('config', 'UA-174643208-1');
-    </script>
-  </head>
-  <body>
-    <!-- The video -->
-    <video autoplay muted loop id="myVideo">
-      <source src="images/cover.mp4" type="video/mp4">
-    </video>
+<!-- Description -->
+<div class="cards-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="above-heading">Nuestra propuesta</div>
+                <h2 class="h2-heading">Ayudar a que la impresión 3D sea una alternativa viable en tu negocio</h2>
+                <p>
+                    Desde la ciudad de Buenos Aires, ponemos nuestro capital humano experto para asesorarte a llevar acabo tus proyectos.
+                </p>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-12">
 
-    <!-- Optional: some overlay text to describe the video -->
-    <div class="content">
-      <h1>IDEA-3D</h1>
-      <h5>Dise&ntilde;o • Impresi&oacute;n 3D • Pintura • Entrega </h5>
-      <p>Asesoramiento experto para llevar a cabo tus ideas</p>
-      <button onclick="onContactClick()">
-        Quiero que me contacten
-      </button>
-    </div>
-    <div class="fixed-action-btn">
-      <a class="btn-floating btn-large red">
-        <i class="large material-icons">dehaze</i>
-      </a>
-      <ul>
-        <li id="phone"><a class="btn-floating green" onclick="onPhoneClick()"><i class="material-icons">call</i></a></li>
-        <li id="email"><a class="btn-floating blue" onclick="onEmailClick()"><i class="material-icons">alternate_email</i></a></li>
-      </ul>
-    </div>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  </body>
-</html>
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-fluid" src="/assets/images/undraw_logic_n6th.png" alt="alternative">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Asesoramiento experto</h4>
+                        <p>Tu idea es lo importante, de lo otro nos encargamos nosotros. Te asesoramos con el dise&ntilde;o de la pieza, repuesto, prototipo o producto que tenes en mente, la elección de materiales y lo que sea necesario para materializar la idea.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-fluid" src="/assets/images/undraw_factory_dy0a.png" alt="alternative">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Impresión en la nube</h4>
+                        <p>No necesitas tener la impresora, nosotros nos encargamos de la impresión, tenemos la experiencia necesaria para que no tengas ningún problema.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-fluid" src="/assets/images/undraw_deliveries_131a.png" alt="alternative">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Entrega</h4>
+                        <p>Gestionas tu idea en la nube, y lo recibis en tu domicilio rápidamente, con garantía asegurada por nosotros de satisfacción.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of cards-1 -->
+<!-- end of description -->
+
+<!-- Newsletter -->
+<div id="contact-form" class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-container">
+                    <div class="above-heading">Pongamos manos a la obra</div>
+                    <h2>Queremos ponernos en contacto para ayudarte a realizar tu idea</h2>
+
+                    <!-- Newsletter Form -->
+                    <form id="newsletterForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <p>
+                                Contamos con un breve formulario para que podemos entender mejor tu proyecto.
+                            </p>
+                            <button type="submit" class="form-control-submit-button">Abrir formulario</button>
+                        </div>
+                    </form>
+                    <!-- end of newsletter form -->
+
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of form -->
+<!-- end of newsletter -->
+
+ <!-- Details -->
+ <div id="details" class="basic-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-container">
+                    <h2>Seamos parte de la historia</h2>
+                    <p>
+                        Queremos ayudar a que la impresión 3D llegue cada vez más lejos dado que sus posibilidades son casi infinitas. Por eso, además de brindar nuestros servicios, queremos que este espacio sea un lugar de conocimiento, con la idea de que puedas estar informado de este mundo y sus novedades. Por eso te invitamos a visitar nuestro blog:
+                    </p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Escrito por nuestros miembros y por gente experta del ámbito maker</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Contenido de calidad para ayudarte a reducir la distancia con las nuevas tecnologías</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg page-scroll" href="/posts">Ver el blog</a>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <div class="image-container">
+                    <img class="img-fluid" src="/assets/images/undraw_publish_article_icso.png" alt="alternative">
+                </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of basic-1 -->
+<!-- end of details -->

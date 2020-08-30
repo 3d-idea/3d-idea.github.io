@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/origenes-impresion-3d/</loc>
+<lastmod>2020-08-01T00:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/por-que-elegir-impresion-3d/</loc>
+<lastmod>2020-08-23T00:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/los-10-materiales-mas-utilizados-en-la-impresi%C3%B3n-3D/</loc>
+<lastmod>2020-08-29T00:00:00-03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/form/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/posts/</loc>
+</url>
+</urlset>
